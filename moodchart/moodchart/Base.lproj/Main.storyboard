@@ -96,6 +96,7 @@
         <scene sceneID="qQW-QG-DME">
             <objects>
                 <navigationController id="iKP-za-feC" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="YBg-M3-Rnp"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cnu-xv-Bof">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -106,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fg-Ph-vwo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1977" y="73"/>
+            <point key="canvasLocation" x="-981" y="73"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="1qV-ce-QYo">
@@ -161,13 +162,19 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-864" y="73"/>
+            <point key="canvasLocation" x="-87" y="73"/>
         </scene>
         <!--Welcome-->
         <scene sceneID="v43-mQ-pfo">
             <objects>
                 <tabBarController id="9DY-ak-oR6" customClass="TabBarViewController" customModule="moodchart" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" title="Welcome" id="NBL-I4-UTk"/>
+                    <navigationItem key="navigationItem" title="Welcome" id="NBL-I4-UTk">
+                        <barButtonItem key="rightBarButtonItem" title="Logout" image="gearshape" catalog="system" id="pLw-Ax-XZo">
+                            <connections>
+                                <action selector="settingsPressed:" destination="9DY-ak-oR6" id="iIG-fM-Tpe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="pPa-C4-KzQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -177,15 +184,18 @@
                         <segue destination="Edp-sG-U4L" kind="relationship" relationship="viewControllers" id="TJa-r5-UCN"/>
                         <segue destination="lgA-IM-3T1" kind="relationship" relationship="viewControllers" id="5Q3-vM-uoE"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="RAe-fy-0E9"/>
+                        <segue destination="aB7-0B-mg1" kind="unwind" identifier="logoutSegue" unwindAction="unwind:" id="8aX-Vx-bHi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a9f-X7-xu4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="aB7-0B-mg1" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="767" y="73"/>
+            <point key="canvasLocation" x="868" y="73"/>
         </scene>
     </scenes>
     <resources>
         <image name="doc" catalog="system" width="115" height="128"/>
+        <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="pencil.circle" catalog="system" width="128" height="121"/>
         <image name="person.2" catalog="system" width="128" height="81"/>
         <systemColor name="systemBackgroundColor">

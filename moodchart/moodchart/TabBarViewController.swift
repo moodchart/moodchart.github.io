@@ -16,6 +16,10 @@ class TabBarViewController: UITabBarController {
     }
     
 
+    @IBAction func settingsPressed(_ sender: UIBarButtonItem) {
+        print("logged out")
+        performSegue(withIdentifier: "logoutSegue", sender: self)
+    }
     /*
     // MARK: - Navigation
 
