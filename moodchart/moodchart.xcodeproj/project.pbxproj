@@ -17,6 +17,8 @@
 		CE8995B4257EBADF000AB184 /* moodchartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8995B3257EBADF000AB184 /* moodchartUITests.swift */; };
 		CE8995C5257EBD04000AB184 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8995C4257EBD04000AB184 /* InputViewController.swift */; };
 		CE8995CE257EBE3B000AB184 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8995CC257EBE3B000AB184 /* DataViewController.swift */; };
+		CE8995D7257EC288000AB184 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8995D6257EC288000AB184 /* LoginViewController.swift */; };
+		CE8995DC257ED005000AB184 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8995DB257ED005000AB184 /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CE8995B5257EBADF000AB184 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8995C4257EBD04000AB184 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
 		CE8995CC257EBE3B000AB184 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		CE8995D6257EC288000AB184 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE8995DB257ED005000AB184 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				CE89959F257EBADF000AB184 /* Info.plist */,
 				CE8995C4257EBD04000AB184 /* InputViewController.swift */,
 				CE8995CC257EBE3B000AB184 /* DataViewController.swift */,
+				CE8995D6257EC288000AB184 /* LoginViewController.swift */,
+				CE8995DB257ED005000AB184 /* TabBarViewController.swift */,
 			);
 			path = moodchart;
 			sourceTree = "<group>";
@@ -264,9 +270,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8995D7257EC288000AB184 /* LoginViewController.swift in Sources */,
 				CE899596257EBAD9000AB184 /* SocialViewController.swift in Sources */,
 				CE899592257EBAD9000AB184 /* AppDelegate.swift in Sources */,
 				CE8995CE257EBE3B000AB184 /* DataViewController.swift in Sources */,
+				CE8995DC257ED005000AB184 /* TabBarViewController.swift in Sources */,
 				CE899594257EBAD9000AB184 /* SceneDelegate.swift in Sources */,
 				CE8995C5257EBD04000AB184 /* InputViewController.swift in Sources */,
 			);
