@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: lightgray;
+}
+
+#header {
+    background-image: linear-gradient(#97C456, #57B378);
+    position: absolute;
+    left:0px;
+    top:0px;
+    width: 100%;
+    height: 50px;
+}
+
+#logo-text {
+    padding-top: 15px;
+    padding-left: 35px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    text-shadow: .5px .5px 1px black;
+}
+
+#logo {
+    position:absolute;
+    padding-left: 12.5px;
+    padding-top: 12.5px;
+
+}
